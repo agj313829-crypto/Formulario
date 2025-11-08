@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<form action="#" method="post">
+    <h2>Formulario de Registro</h2>
+    <!--en esta parte se coloca en el cuestionario el nombre -->
+
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" value="" required>
+    <!--en esta parte se coloca en el cuestionario los apellidos  -->
+    <label for="apellido">Apellido:</label>
+    <input type="text" id="apellido" name="apellido" value="" required>
+    <!--en esta parte se coloca en el cuestionario el tipo de  identificacion  -->
+    <label for="tipoID">Tipo de identificación:</label>
+    <select id="tipoID" name="tipoID" required>
+      <option value="CC" selected>Cédula de Ciudadanía (CC)</option>
+      <option value="TI">Tarjeta de Identidad (TI)</option>
+      <option value="CE">Cédula de Extranjería (CE)</option>
+    </select>
+    <!--en esta parte se coloca en el cuestionario se coloca el numero de identificacion  -->
+    <label for="numeroID">Número de identificación:</label>
+    <input type="number" id="numeroID" name="numeroID" value="" required>
+    <!--en esta parte se coloca en el cuestionario la fecha de nacimiento  -->
+    <label for="fecha">Fecha de nacimiento:</label>
+    <input type="date" id="fecha" name="fecha" value="" required>
+    <!--en esta parte se coloca en el cuestionario el numero de celular  -->
+    <label for="celular">Número de celular:</label>
+    <input type="tel" id="celular" name="celular" value="" required>
+    <!--en esta parte se coloca en el cuestionario la politica de tratamiento de datos  -->
+    <div class="checkbox">
+      <input type="checkbox" id="politica" name="politica" required>
+      <label for="politica">Acepto la política de tratamiento de datos</label>
+    </div>
+
+    <button type="submit">Enviar</button>
+  </form>
+<body> 
+  </style>
+</head>
+<body>
+
+    
+</body>
+</html>
